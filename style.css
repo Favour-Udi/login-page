@@ -1,0 +1,129 @@
+body {
+    background-color: #EDE7F6;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif !important;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.class1 {
+    float: left;
+    padding-right: 40px;
+    transform: translate(10%, -50%);
+}
+.class1 a{
+    text-decoration: none;
+}
+.class2 {
+    float: left;
+    padding-left: 710px;
+    text-align: right;
+}
+.class2 a{
+    text-decoration: none;
+}
+.login-head{
+    position: absolute;
+    background: #1a237e;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 67px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif ;
+    font-weight: normal;
+
+}
+.login-header{
+    position:absolute;
+    top: 10%;
+    left: 43%;
+    height: 20px;
+    background: transparent;
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}    
+.center {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height:250px;
+    background: white;
+    border-radius: 5px;
+    border-style: groove;
+}    
+.smaller-image {
+    width: 40px;
+    transform: translateY(35%);
+}
+.smaller-image2 {
+    width: 70px
+}
+.center form{
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+form .txt_field {
+    position: relative;
+    border-bottom: 1px solid #5a5959;
+    margin: 30px 0px;
+}
+.txt_field input{
+    width: 100%;
+    margin-left: auto;
+    background: none;
+    outline: none;
+    height: 27px;
+    font-size: 16px;
+    padding: 0px, 5px;
+    border: none;
+}
+.txt_field label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    color: #333333;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #1a237e;
+}
+
+.click{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    width: 140px;
+    height:40px;
+    transform: translate(-50%, 130%);
+    background: #1a237e;
+    border-radius: 3px;
+}
+.click_txt{
+    transform: translate(0%, 30%);
+    color:white;
+}
+.login-footer{
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    height: 10px;
+    background: transparent;
+
+}
+.login-footer a{
+    text-decoration: none;
+}
